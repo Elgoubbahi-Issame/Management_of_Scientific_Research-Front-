@@ -1,20 +1,32 @@
-import Nav from './Navbaar/Navbaar';
-import Hom from './Home/Home';
-import Ser from './Services/services';
-import Tea from './Team/Team';
-import Con from './Contact/contact';
-import Foo from './Contact/footer';
+import HP from './Homepage/page_H';
+// import Nav from './Navbaar/Navbaar';
+import Sear from './search/Search';
+import Adm from './profil/AdmPage/Admin';
+import Admp from './profil/AdmPage/AdminP';
+import Admsr from './profil/AdmPage/AdminSR';
+import Adma from './profil/AdmPage/AdminA';
+// import './index.css';
+
+
+import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
+
     <div className="App">
-      <Nav />
-      <Hom />
-      <Ser />
-      <Tea />
-      <Con />
-      <Foo />  
+      
+    <Switch>
+      <Route exact path="/" component={HP}/>
+      <Route exact path="/search" component={Sear}/>
+      <Route exact path="/admin" component={Adm}/>
+      <Route exact path="/admin/profile" component={Admp}/>
+      <Route exact path="/admin/Structur+de+recherche" component={Admsr}/>
+      <Route exact path="/admin/Accounts" component={Adma}/>
+    </Switch>
+   
     </div>
+    </Router>
   );
 }
 

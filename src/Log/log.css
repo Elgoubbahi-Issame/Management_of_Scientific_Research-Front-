@@ -1,0 +1,196 @@
+.Log_sin{
+    border-radius: 15px;
+    width: 380px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.849);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* z-index: 2; */
+    transform: translate(-50% , -50%);
+    /* margin: 6% auto; */
+    padding:5px;
+    /* margin-bottom:600px ;
+    margin-left: 550px ;               */
+    text-align: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition: 3s;
+
+    /* */
+    
+}
+.cls:hover{
+    border-radius: 0 0 5px 5px;
+   color: white;
+    background: linear-gradient(to right,#ff6701,#fea82f);
+}
+
+.cls{
+    cursor: pointer;
+    position: absolute;
+    right:  0;
+    top:0;
+    padding :15px 15px;
+    /* height: 30px;
+    width: 30px; */
+    color: #fea82f;
+
+}
+.hide{
+    display: none;
+}
+
+.dbab{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(10, 10, 10, 0.849);
+    position: absolute;
+     transition: 2s;
+    top: 0;
+}
+.content{
+    width: 100%;
+    height: 368vh;
+    /* width: 100%; 
+    height: 120vh; */
+    background-color:rgba(10, 10, 10, 0.849);
+    position: absolute;
+    transition: 3s;
+    top: 0;
+}
+
+.disin .navbar-brand{
+    margin: 15px 15px 15px 15px;
+    text-decoration: none;
+    color: #ff6701;
+    letter-spacing: 2px;
+    border-bottom:2px #ff6701 solid ;
+    border-top: 2px #ff6701 solid;
+    border-radius: 15px 0 15px 0;
+    padding: 0px 10px;
+    font-weight: 700px;
+    font-size:20px;
+    
+   }
+/* .disin{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+
+} */
+/* .Log_sin1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative ;
+
+}
+#id1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(to right,#ff6701,#fea82f);
+    border-radius: 30px;
+    transition: 0.5s;
+
+} */
+.sa{
+    margin: 0 15px 0;
+    /* cursor: pointer; */
+    color: #ff6701;
+    font-weight: bolder;
+    /* font-weight:lighter; */
+    font-size: 20px;
+}
+
+.MyInfo2{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    /* transition: 0.5s; */
+}
+.textpo{
+font-size: 17px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-bottom: 1px solid #999 ;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    background: transparent;
+}
+.inpooo{
+    border-bottom: 0 ;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+    background: transparent;
+    outline: none;
+
+}
+.Log_sin span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    /* position:absolute; */
+
+}
+.check{
+    margin: 30px 10px 30px 0;
+
+}
+.submit{
+    margin:50px auto ;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right,#ff6701,#fea82f);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+#My2{
+    left: 50px;
+ }
+/*#My1{
+    left: 50px;
+} */
+@media(max-width : 700px ){
+
+    .Log_sin{
+    text-align: center;
+        width: 300px;
+        height: 400px;
+        /* font-size: 10px; */
+       
+        
+    }
+ #Log_sin-1{
+        position: absolute;
+        top:450px ;
+ }
+    .MyInfo2{
+       
+         font-size: 13px;
+       width: 180px;
+       
+    }
+    #My2{
+        left: 65px;
+        bottom: 20px;
+    }
+  
+   
+  
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Spopup} from '../Log/Log'
 
 function def() {
     return (
@@ -12,7 +13,7 @@ function def() {
                         aliquid numquam sit velit voluptatibus porro asperiores deserunt alias.
                     </p>
             </div>
-            <button className="btns animate__animated animate__jackInTheBox animate__delay-5s">Watch More</button> 
+            <button className="btns animate__animated animate__jackInTheBox animate__delay-5s" onClick={Spopup} >Watch More</button> 
     </div>
     )
 }
