@@ -1,0 +1,59 @@
+{
+  "Labo": [
+    {
+      "Title": "App Devlop",
+      "Chef": "samir",
+      "Type": "Labo",
+      "Equipes": [
+        {
+          "Title": "frontEnd",
+          "Chef": "Ennaji",
+          "Team": [
+            {
+              "username": "Benbrahim",
+              "id": 3
+            }
+          ],
+          "Type": "Equipe",
+          "id": 12
+        },
+        {
+          "Title": "SiteWeb",
+          "Chef": "Amazal",
+          "Team": [],
+          "Type": "Equipe",
+          "id": 11
+        },
+        {
+          "Chef": "Issam",
+          "Title": "Base de donnee",
+          "Type": "Equipe",
+          "Team": []
+        }
+      ],
+      "id": 21
+    },
+    {
+      "Title": "Security",
+      "Chef": "Battou",
+      "Type": "Labo",
+      "Equipes": [
+        {
+          "Title": "electronic",
+          "Chef": "samir",
+          "Team": [],
+          "Type": "Equipe",
+          "id": 16
+        }
+      ],
+      "id": 22
+    },
+    {
+      "Chef": "halim",
+      "Title": "darni dehri",
+      "Type": "Labo",
+      "Equipes": [],
+      "id": 23
+    }
+  ]
+}

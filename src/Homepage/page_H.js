@@ -4,15 +4,24 @@ import Tea from '../Team/Team';
 import Con from '../Contact/contact';
 import Foo from '../Contact/footer';
 import '../index.css';
-import Log, { Cpopup } from '../Log/Log';
 import Nav from '../Navbaar/Navbaar';
-
-
-
-function page_H() {
+import Log, { Cpopup } from '../Log/Log';
+import React,{useEffect} from 'react';
+import { useLocation} from 'react-router-dom'; 
+function Page_H(){
+  const location = useLocation();
+ 
+   
+  React.useEffect(() => {
+  //   alert('Location changed');
+  // window.location.reload();
+    document.querySelector(".App").classList.remove('doo');
+      // alert('The current URL is '+location.pathname);
+ 
+  }, [location]);
     return (
     <div>
-   <Nav />
+      <Nav />
       <Hom />
       <Ser />
       <Tea />
@@ -24,4 +33,8 @@ function page_H() {
     )
 }
 
-export default page_H
+export default Page_H;
+ // 
+
+
+ 

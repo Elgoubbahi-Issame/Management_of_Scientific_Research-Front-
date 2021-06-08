@@ -1,0 +1,61 @@
+{
+  "accounts": [
+    {
+      "username": "hshhs",
+      "email": "uqshuh@gaaj.com",
+      "type": "Admin",
+      "password": "1234",
+      "phone": "65656464646",
+      "id": 1
+    },
+    {
+      "username": "Amazal",
+      "email": "Amazalh@gaaj.com",
+      "type": "Chef Equipe",
+      "password": "1234",
+      "phone": "65656464646",
+      "id": 6
+    },
+    {
+      "username": "Ennaji",
+      "email": "Ennaji@gaaj.com",
+      "type": "Chef Equip",
+      "password": "1234",
+      "phone": "65656464646",
+      "id": 7
+    },
+    {
+      "username": "samir",
+      "email": "samir@gmail.com",
+      "type": "Chef Labo",
+      "password": "120120",
+      "phone": "566656666",
+      "id": 5
+    },
+    {
+      "username": "Battou",
+      "Email": "Battou@gmail.com",
+      "User_type": "Chef Labo",
+      "lien": "chefLabo",
+      "Joined": "5/23/2021",
+      "id": 4
+    },
+    {
+      "username": "Bouloz",
+      "Email": "Bouloz@gmail.com",
+      "User_type": "Chef equipe",
+      "lien": "chefEquipe",
+      "Joined": "20/4/2020",
+      "id": 2
+    },
+    {
+      "username": "Benbrahim",
+      "email": "Benbrahim@gmail.com",
+      "type": "Prof",
+      "lien": "prof",
+      "phone": "65656464646",
+      "Joined": "1/4/2020",
+      "id": 3
+    }
+  ]
+}

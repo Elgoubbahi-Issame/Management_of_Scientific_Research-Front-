@@ -13,21 +13,17 @@ function services() {
                <di className="row services">
                    <div className="col-md-6 text-center">
                        <div className="icon">
-                       <Link to="/search" ><i class="fa fa-search"></i></Link>
+                       <Link to="/search/articles" ><i onClick={()=>{document.querySelector(".App").classList.add('doo');}} class="fa fa-search"></i></Link>
                        </div>
-                       <h3>Recherch</h3>
-                       <p>Lorem, ipsum dolor sit amet consectetur 
-                           adipisicing elit. Quia fugiat, distinction 
-                           animi excepturi!</p>
+                       <h3>Recherche</h3>
+                       <p> Trouver tous les membres ou articles</p>
                    </div>
                    <div className="col-md-6 text-center" >
                        <div className="icon">
                            <a href="#" onClick={Spopup}><i class="fa fa-sign-in" ></i></a>
                        </div>
-                       <h3>Login for more</h3>
-                       <p>Lorem, ipsum dolor sit amet consectetur 
-                           adipisicing elit. Quia fugiat, distinction 
-                           animi excepturi!</p>
+                       <h3>Connectez-vous</h3>
+                       <p>Pour en savoir plus</p>
                    </div>
 
                </di>

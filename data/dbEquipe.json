@@ -1,0 +1,18 @@
+{
+  "Equipe": [
+    {
+      "Title": "Disign",
+      "Chef": "Kouti",
+      "Team": "",
+      "Type": "Equipe",
+      "id": 13
+    },
+    {
+      "Title": "Reseaux",
+      "Chef": "Bouloz",
+      "Team": "",
+      "Type": "Equipe",
+      "id": 14
+    }
+  ]
+}
